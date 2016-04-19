@@ -1,0 +1,473 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+/*
+  ========================================
+  Border box
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/*
+  ========================================
+  Grid system
+  ========================================
+*/
+
+.col-1-3,
+.col-2-3,
+.col-1-2 {
+  padding: 0 16px; /*0 top-bottom / 16px L R*/
+  float:left;  /* var display:inline-block -> er (verri) lausn þar sem "white space" er virkt á milli html taga */
+}
+.col-1-3 {
+    width: 100%;
+}
+.col-2-3 {
+  width: 100%;
+}
+.col-1-2 {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  padding-bottom: 0.5em
+}
+
+/*
+  ========================================
+  Base
+  ========================================
+*/
+body {
+  overflow: none;
+}
+header, section, footer {
+}
+footer nav, footer h4 {
+  margin-top: 1em;
+}
+header nav {
+  margin-top: 1.3em;
+}
+/*
+  ========================================
+  Efnisyfirlit
+  ========================================
+*/
+
+/*
+  ========================================
+  Box positions
+  ========================================
+*/
+.sMedia {
+  position:  relative;
+  height: 3em;
+  background-color: #007;
+}
+
+.sMedia ul{
+  list-style-type: none;
+  width: 14em;
+  margin: 0 auto;
+  padding: 0;
+}
+.sMedia li{
+  display: inline-block;
+}
+.sMedia a{
+  display: block;
+  text-decoration: none;
+}
+
+.twitter {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background:  transparent url(_vinnugogn/Media.png) 0 0 no-repeat;
+}
+
+.facebook {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background:  transparent url(_vinnugogn/Media.png) 0 -3em no-repeat;
+}
+
+.pinterest {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background:  transparent url(_vinnugogn/Media.png) 0 -6em no-repeat;
+}
+
+.instagram {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background:  transparent url(_vinnugogn/Media.png) 0 -9em no-repeat;
+}
+
+.sMedia li:nth-child(4n+1)
+{
+  background: rgb(22,145,190);
+}
+
+.sMedia li:nth-child(4n+2)
+{
+  background: rgb(22,107,162);
+}
+
+.sMedia li:nth-child(4n+3)
+{
+  background: rgb(233,147,26);
+}
+
+.sMedia li:nth-child(4n+4)
+{
+  background: rgb(70,70,70);
+}
+
+.sMedia li:nth-child(4n+1) a:hover
+{
+  background: rgb(0,0,0);
+}
+
+.sMedia li:nth-child(4n+2) a:hover
+{
+  background: rgb(0,0,0);
+}
+
+.sMedia li:nth-child(4n+3) a:hover
+{
+  background: rgb(0,0,0);
+}
+
+.sMedia li:nth-child(4n+4) a:hover
+{
+  background: rgb(0,0,0);
+}
+
+ .myndarammi{
+    width: 100%;
+    border: 3px solid #333;
+    position: relative;
+  }
+  img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .box{
+    position: relative;
+    float: left;
+    border: 2px solid #333;
+    width: 50%;
+    height: auto;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+    .box{
+    position: absolute;/*absolute*/
+    border: 2px solid #333;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+  }
+  .box:hover {
+    border: 4px solid #333;
+    }
+  .box-1{
+    float: left;
+        position: relative;
+  }
+  .box-2{
+    float: left;
+        position: relative;
+  }
+  .box-3{
+    float: left;
+        position: relative;
+  }
+  .box-4{
+    float: left;
+        position: relative;
+  }
+
+
+
+
+  .myndarammi{
+    background-color: green;
+  }
+
+  input{
+  display: none;
+}
+
+label{
+  padding: 10px;
+  border: 0.2em solid black;
+  border-radius: 5px;
+  position: relative;
+  width: 5em;
+  background-color: white;
+  position: fixed;
+  right: 1em;
+  top: 1em;
+  margin-bottom: 700px;
+  margin-bottom: 3000px;
+}
+label:hover{
+  cursor: pointer;
+  color:grey; 
+  z-index: 1;
+}
+input:checked + .topmenu {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  color: #9799a7;
+}
+
+.ul {
+  cursor: pointer;
+  position: fixed;
+  top: 3.2em;
+  right: 1em;
+  z-index: 2;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .5s ease;
+}
+
+input:checked ~ .ul {
+  max-height: 500px;
+}   
+      .topmenu {
+  position: relative;
+  background-color: white;
+  border:none;
+  padding: 0;
+  margin: 0;
+}
+.to {
+  color: white;
+  background-color: black;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-size: 24px;
+  letter-spacing: .05em;
+  list-style-type: none;
+  text-shadow: 2px 2px 1px #9f593f;
+  padding-left: 1em;
+  padding-top: 10px;
+}
+/*
+  ========================================
+  Social buttons
+  ========================================
+*/
+h1{
+  font-weight: bolder;
+}
+
+.myndir{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+}
+.oddi{
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+  position: relative;
+
+}
+.smite{
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+  z-index: 2;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: -4em;
+  padding: 0;
+  top: -5em;
+}
+  .smite {
+  position: relative;
+  animation:  popp 5s 1;
+  animation-direction: alternate;
+}
+.smiteB{
+  position: absolute;
+  margin-bottom: -10em;
+  padding: -20px;
+}
+.oddi:hover{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}
+.oddi:hover~.smite{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}
+.smite:hover{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}
+.smite:hover~.oddi{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}
+@keyframes popp {
+
+  0% {
+    top: -40em;
+  }
+  80%{
+    top: -4.5em;
+  }
+
+  100% {
+    top: -5em;
+  }
+
+}
+
+
+@media screen and (min-width: 30em){
+  .col-1-2 {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+.box{
+    width: 25%;
+  }
+
+  
+}
+@media screen and (min-width: 48em){
+  .myndarammi{
+    background-color: blue;
+  }
+
+  .col-1-3 {
+    width: 33.33%;
+  }
+  .col-2-3 {
+    width: 66.66%;
+  }
+
+
+}
+@media screen and (min-width: 60em){
+  body{
+    max-width: 60em;
+    margin: 0 auto;
+  }
+
+  label{
+    display: none;
+    position: relative;
+  }
+  .seble{
+    position: none;
+    height: 0px;
+    margin-bottom:2em;
+  }
+ .ul{
+   max-height: 500px;
+   position: relative;
+   top:0;
+   left: 0;
+ }
+  .topmenu {
+  font-size: 15.5px;
+  padding: 0 2em;
+  background-color: grey;
+  position: relative;
+  margin: 0 auto;
+}
+.topmenu li {
+  font-size: 14px;
+  margin: 0;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  list-style-type: none;
+  padding: .6em 1em;
+  height: 3em;
+}
+  .myndarammi{
+    background-color: red;
+
+  }
+
+  .sMedia {
+  animation-name: diagonal-slide;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes diagonal-slide {
+
+  from {
+    top: -15em;
+  }
+
+  to {
+    top: 2em
+  }
+
+}
+  .sMedia {
+
+    z-index: 3;
+    position:  fixed;
+    top: 2em;
+    right: 0;
+    height: 12em;
+    background-color: #007;
+  }
+
+  .sMedia ul{
+    list-style-type: none;
+    width: 3em;
+    margin: 0;
+    padding: 0;
+  }
+
+}
