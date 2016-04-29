@@ -1,0 +1,333 @@
+body{
+	width: 1920px;
+	margin: 0 auto;
+}
+#Velkomin{
+	background-image: url("Myndir/Myndir Velkomin/Fjoll_minni.jpg");
+}
+.Mynd{
+	width: 320px;
+	height: 320px;
+	float: left;
+	transition: box-shadow 0.5s;
+	cursor: pointer;
+}
+.Mynd:hover{
+	box-shadow: inset 0 0 0 170px rgba(255,255,255,0.2);
+}
+.Mynd h1{
+	font-family: "Roboto", sans-serif;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 62%;
+	opacity: 0;
+	margin: 0;
+	transition: opacity 0.5s;
+}
+.Mynd:hover h1{
+	opacity: 1;
+}
+.Mynd2{
+	width: 320px;
+	height: 320px;
+	float: left;
+	transition: box-shadow 0.5s;
+}
+.Mynd2:hover{
+	box-shadow: inset 0 0 0 170px rgba(255,255,255,0.2);
+}
+.Mynd2 h1{
+	font-family: "Roboto", sans-serif;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 62%;
+	opacity: 0;
+	margin: 0;
+	transition: opacity 0.5s;
+}
+.Mynd2:hover h1{
+	opacity: 1;
+}
+iframe {
+    /*visibility: hidden;*/
+    position: absolute;
+    left: 0; top: 0;
+    height:0; width:0;
+    border: none;
+}
+#Taylor{
+
+	background-image: url("Myndir/Myndir Taylor Swift/Taylor_Swift_Minkud_og_Litud.jpg");	
+}
+#Coldplay{
+	background-image: url("Myndir/Myndir Coldplay/Svart_hvit_Coldplay_litud_og_smaeri.jpg");
+}
+#Robbie{
+	background-image: url("Myndir/Myndir Robbie Williams/Robbie_Williams_Minkud_og_Litud.jpg");
+}
+#OneR{
+	background-image: url("Myndir/Myndir OneRepublic/OneRepublic_Mikid_og_Litud.jpg");
+}
+#Bob_M{
+	background-image: url("Myndir/Myndir Bob Marley/Bob_Marley_Minkud_og_Litud.jpg");
+}
+#Stjornur{
+	background-image: url("Myndir/Myndir Velkomin/Stjornu_þoka_minni.jpg");
+}
+#Stjornur h1{
+	top: 40%;
+	font-size: 170%;
+}
+#Adam_Levine{
+	background-image: url("Myndir/Myndir Adam Levine/Adam_Levine_Mynd1_minni_og_litud.jpg");
+}
+#Ed_Sheeran{
+	background-image: url("Myndir/Myndir Ed Sheeran/Ed_Sheeran_minni_litud.jpg");
+}
+#Sting{
+	background-image: url("Myndir/Myndir Sting/Sting_minni_litud.jpg");
+}
+#Jay_Z{
+	background-image: url("Myndir/Myndir Jay Z/Jay_z_minni_litud.jpg");
+}
+#The_Weeknd{
+	background-image: url("Myndir/Myndir The Weeknd/The_Weeknd_minni_litud.jpg");
+}
+#Loft_Belgir{
+	background-image: url("Myndir/Myndir Velkomin/Calm_mynd2_minni.jpg");
+}
+#U2{
+	background-image: url("Myndir/Myndir U2/U2_minni_litud.jpg");
+}
+#Calvin_Harris{
+	background-image: url("Myndir/Myndir Calvin Harris/Calvin_Harris_mynd_minni_litud.jpg");
+}
+#JT{
+	background-image: url("Myndir/Myndir Justin Timberlake/Justin_Timberlake_mynd1.jpg");
+}
+#Gorillaz{
+	background-image: url("Myndir/Myndir Gorillaz/Gorillaz_minni_litud.jpg");
+}
+#Tiesto{
+	background-image: url("Myndir/Myndir Tiesto/Tiesto.jpg");
+}
+.Blue{
+	background-color: blue;
+}
+body{
+	width: 1920px;
+	height: 640px;
+	margin: 0 auto;
+	background-color: rgb(64,64,64);
+}
+h1{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+h2{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+h3{
+	font-family: "Roboto", sans-serif;
+	color: white;
+	margin: 3px;
+}
+p{
+	line-height: 30px;
+	padding: 7px;
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+img{
+	float: left;
+}
+.Opener{
+	width: 640px;
+	height: 640px;
+	float: left;
+	transition: box-shadow 1s;
+}
+.Opener:hover{
+	box-shadow: inset 0 0 0 340px rgba(255,255,255,0.2);	
+}
+.Opener h1{
+	color: rgb(255,255,255);
+	position: absolute;
+	font-size: 45px;
+	top: 500px;
+	left: 30px;
+	opacity: 0;
+	transition: opacity 1s;
+}
+.Opener:hover h1{
+	opacity: 1;
+}
+#TS{
+	background-image: url("Myndir/Myndir Taylor Swift/Taylor_Swift_open.jpeg");
+}
+#Cold{
+	background-image: url("Myndir/Myndir Coldplay/Coldplay_live_minni.jpg");
+}
+#Robbie{
+	background-image: url("Myndir/Myndir Robbie Williams/Robbie_Williams_Live_minni.jpg");
+}
+#OR{
+	background-image: url("Myndir/Myndir OneRepublic/OR_minni.jpg");
+}
+#Bob_MARLEY{
+	background-image: url("Myndir/Myndir Bob Marley/The_Bob_minni.jpg");
+}
+#Maroon{
+	background-image: url("Myndir/Myndir Adam Levine/Maroon_minni.jpg");
+}
+#Ed{
+	background-image: url("Myndir/Myndir Ed Sheeran/Ed_minni.jpg");
+}
+#STING{
+	background-image: url("Myndir/Myndir Sting/Sting_live_minni.jpg");
+}
+#JAY{
+	background-image: url("Myndir/Myndir Jay Z/jay_z_live_minni.jpg");
+}
+#The_W{
+	background-image: url("Myndir/Myndir The Weeknd/The_W_minni.jpg");
+}
+#u2_live{
+	background-image: url("Myndir/Myndir U2/U2_live_minni.jpg");
+}
+#Calvin_live{
+	background-image: url("Myndir/Myndir Calvin Harris/Calvin_live_minni.jpg");
+}
+#JT_live{
+	background-image: url("Myndir/Myndir Justin Timberlake/JT_live_minni.jpg");
+}
+#G_live{
+	background-image: url("Myndir/Myndir Gorillaz/Gorillaz_live_minni.jpg");
+}
+#Tiesto_live{
+	background-image: url("Myndir/Myndir Tiesto/Tiesto_live_minni.jpg");
+}
+.main{
+	width: 640px;
+	height: 640px;
+	float: left;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: rgb(39,158,255);
+}
+.right{
+	width: 640px;
+	height: 640px;
+	float: left;
+}
+.Plata{
+	width: 320px;
+	height: 320px;
+	float: left;
+	cursor: pointer;
+	transition: box-shadow 0.5s;
+}
+.Plata:hover{
+	box-shadow: inset 0 0 0 170px rgba(255,255,255,0.2);
+}
+.Texti_vid_plotu{
+	width: 320px;
+	height: 320px;
+	float: left;
+}
+#TS_1989{
+	background-image: url("Myndir/Myndir Taylor Swift/Taylor_Swift_1989.jpg");
+}
+#RED{
+	background-image: url("Myndir/Myndir Taylor Swift/Taylor_Swift_RED.jpg");
+}
+#Ghost{
+	background-image: url("Myndir/Myndir Coldplay/Coldplay_Ghost_minni.jpg");
+}
+#Coldplay_MY{
+	background-image: url("Myndir/Myndir Coldplay/Coldplay_MY_minni.jpg");
+}
+#I_Been{
+	background-image: url("Myndir/Myndir Robbie Williams/I_Been_minni.jpg");
+}
+#Esca{
+	background-image: url("Myndir/Myndir Robbie Williams/Es_minni.jpg");
+}
+#Native{
+	background-image: url("Myndir/Myndir OneRepublic/Native_minni.jpg");
+}
+#WakingUp{
+	background-image: url("Myndir/Myndir OneRepublic/WakingUp_minni.jpg");
+}
+#Exodus{
+	background-image: url("Myndir/Myndir Bob Marley/Exodus_minni.jpg");
+}
+#Uprising{
+	background-image: url("Myndir/Myndir Bob Marley/Uprising_minni.jpg");
+}
+#V{
+	background-image: url("Myndir/Myndir Adam Levine/V_minni.jpg");
+}
+#overexposed{
+	background-image: url("Myndir/Myndir Adam Levine/Over_minni.jpg");
+}
+#X{
+	background-image: url("Myndir/Myndir Ed Sheeran/X_minni.jpg");
+}
+#ES{
+	background-image: url("Myndir/Myndir Ed Sheeran/+_minni.jpg");
+}
+#Sun{
+		background-image: url("Myndir/Myndir Sting/Sun_minni.jpg");
+}
+#Tales{
+		background-image: url("Myndir/Myndir Sting/Tales_minni.jpg");
+}
+#WTT{
+	background-image: url("Myndir/Myndir Jay Z/WTT_minni.jpg");
+}
+#TB3{
+	background-image: url("Myndir/Myndir Jay Z/TB3_minni.jpg");
+}
+#Trilogy{
+	background-image: url("Myndir/Myndir The Weeknd/Trilogy_minni.jpg");
+}
+#BBTM{
+	background-image: url("Myndir/Myndir The Weeknd/BBTM_minni.jpg");
+}
+#Dancing{
+	background-image: url("Myndir/Myndir U2/Dancing_minni.jpg");
+}
+#TJT{
+	background-image: url("Myndir/Myndir U2/TJT_minni.jpg");
+}
+#Motion{
+	background-image: url("Myndir/Myndir Calvin Harris/Calvin_Motion_minni.jpg");
+}
+#Months{
+	background-image: url("Myndir/Myndir Calvin Harris/Calvin_18_minni.jpg");
+}
+#JT_20{
+	background-image: url("Myndir/Myndir Justin Timberlake/JT_20_minni.jpg");
+}
+#JT_S{
+	background-image: url("Myndir/Myndir Justin Timberlake/JT_Sex_minni.jpg");
+}
+#Demon{
+	background-image: url("Myndir/Myndir Gorillaz/Gorillaz_Demon_minni.jpg");
+}
+#G_P{
+	background-image: url("Myndir/Myndir Gorillaz/G_P_minni.jpg");
+}
+#Tiesto_A{
+	background-image: url("Myndir/Myndir Tiesto/Tiesto_A_minni.jpg");
+}
+#Tiesto_CL{
+	background-image: url("Myndir/Myndir Tiesto/Tiesto_CL_minni.jpg");
+}
