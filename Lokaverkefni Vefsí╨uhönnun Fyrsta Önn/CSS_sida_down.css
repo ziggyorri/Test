@@ -25,6 +25,7 @@ img{
 	float: left;
 }
 
+
 .Opener:hover{
 	box-shadow: inset 0 0 0 340px rgba(255,255,255,0.2);
 }
@@ -32,6 +33,7 @@ img{
 .Opener:hover h1{
 	opacity: 1;
 }
+
 
 #Cold{
 	background-image: url("Myndir/Myndir Coldplay/Coldplay_live_minni.jpg");
@@ -93,7 +95,7 @@ a:hover{
 	float: left;
 }
 .Plata{
-	
+
 	float: left;
 	cursor: pointer;
 	transition: box-shadow 0.5s;
@@ -102,8 +104,13 @@ a:hover{
 	box-shadow: inset 0 0 0 170px rgba(255,255,255,0.2);
 }
 
-
-
+#TS_1989{
+	background-image: url("Myndir/Myndir Taylor Swift/Taylor_Swift_1989.jpg");
+}
+#RED{
+	background-image: url("Myndir/Myndir Taylor Swift/Taylor_Swift_RED.jpg");
+}
+>>>>>>> 535a8bbca361ab789a942d20d575de9c626d27fd
 #Ghost{
 	background-image: url("Myndir/Myndir Coldplay/Coldplay_Ghost_minni.jpg");
 }

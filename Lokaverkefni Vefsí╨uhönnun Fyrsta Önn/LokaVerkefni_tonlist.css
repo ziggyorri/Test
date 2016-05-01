@@ -4,6 +4,7 @@ body{
 	background-color: rgb(64, 64, 64);
 	max-width: 2050px;
 
+
 }
 
 .Mynd{
@@ -63,6 +64,7 @@ img{
 	margin-top: -2.4em;
 }
 
+
 input{
 	display: none;
 	height: 0px;
@@ -94,11 +96,13 @@ input{
 	width: 20px;
 	height: 320px;
 }
+
 @media screen and (min-width: 48em){
 .Mynd h1{
 	opacity: 1;
 }
   }
+
  #rbTS:checked ~	 #TsContainer{
 	width: 100%;
 	max-height: 2000em;
@@ -136,4 +140,5 @@ input{
 	height: 320px;
 	float: left;
 }
+
   }
