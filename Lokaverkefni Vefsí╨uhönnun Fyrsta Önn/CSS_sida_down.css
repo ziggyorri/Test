@@ -27,13 +27,13 @@ img{
 
 
 
-.Opener:hover{
+/*.Opener:hover{
 	box-shadow: inset 0 0 0 340px rgba(255,255,255,0.2);
 }
 
 .Opener:hover h1{
 	opacity: 1;
-}
+}*/
 
 
 
@@ -79,11 +79,7 @@ img{
 #Tiesto_live{
 	background-image: url("Myndir/Myndir Tiesto/Tiesto_live_minni.jpg");
 }
-.main{
-	width: 640px;
-	height: 640px;
-	float: left;
-}
+
 a{
 	color: white;
 }
@@ -91,24 +87,16 @@ a:hover{
 	color: rgb(39,158,255);
 }
 
-.right{
-	width: 640px;
-	height: 640px;
-	float: left;
-}
-.Plata{
+
+/*.Plata{
 
 	float: left;
-	cursor: pointer;
-	transition: box-shadow 0.5s;
 }
 .Plata:hover{
 	box-shadow: inset 0 0 0 170px rgba(255,255,255,0.2);
-}
+}*/
 
-#TS_1989{
-	background-image: url("Myndir/Myndir Taylor Swift/Taylor_Swift_1989.jpg");
-}
+
 #RED{
 	background-image: url("Myndir/Myndir Taylor Swift/Taylor_Swift_RED.jpg");
 }

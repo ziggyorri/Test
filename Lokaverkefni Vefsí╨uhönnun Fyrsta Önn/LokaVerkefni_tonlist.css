@@ -2,12 +2,12 @@
 
 body{
 	background-color: rgb(64, 64, 64);
-	max-width: 2050px;
+	max-width: 1920px;
+	margin: 0 auto;
 }
 
 .Mynd{
-	width: 320px;
-	height: 320px;
+	height: auto;
 	float: left;
 	transition: box-shadow 0.5s;
 	cursor: pointer;
@@ -15,12 +15,11 @@ body{
 	padding: none;
 	display: inline-block;
 	background-size: cover;
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 320px;
 }
-.Mynd:hover{
+/*.Mynd:hover{
 	box-shadow: inset 0 0 0 170px rgba(255,255,255,0.2);
-}
+}*/
 .Mynd h1{
 	font-family: "Roboto", sans-serif;
 	color: white;
@@ -52,11 +51,11 @@ iframe{
     left: 0;
     opacity: 0;
 }
-.shadow:hover{
+/*.shadow:hover{
 	opacity: 1;
-}
+}*/
 
-img{
+.frontpage{
 	margin-top: -2.4em;
 }
 
@@ -73,67 +72,65 @@ input{
 }
 .container{
 	position: relative;
+	max-width: 1920px;
 	clear: both;
 	float: left;
-	padding: 0.6em;
+	padding: 0em;
     overflow: hidden;
 	display: block;
-	border: none;
-	border-width: 0em;
 	clear: none;
-	position: relative;
-	padding: 0em;
 	margin: 0em;
 	width: 0px;
 	max-height: 0px;
-  transition: all .5s ease;
+  transition: all 1s ease;
 }
 
-.plata{
-	width: 20px;
-	height: 320px;
+.Plata{
+	max-width: 320px;
+	height: auto;
+	float: left;
+}
+.main{
+	width: 640px;
+	height: 640px;
+	float: left;
 }
 
-
-@media screen and (min-width: 48em){
+@media screen and (min-width: 0em){
+.frontpage,
+.Mynd{
+	width: 100%;
+	height: auto;
+}
 .Mynd h1{
 	opacity: 1;
-
-	color: red;
 }
   }
 
  #rbTS:checked ~	 #TsContainer{
 	width: 100%;
 	max-height: 2000em;
-	border: none;
+	padding-right: 2em;
 }
- .Plata,
+.Plata,
 .Opener{
+	width: 100%;
 	height: auto;
-	width: 100%;
-	border: none;
-	border-width: 0px;
 	}
-	.Texti_vid_plotu{
-	width: 100%;
-	float: left;
-	clear: left;
-}
+
+	
   @media screen and (min-width: 60em){
 .Mynd h1{
 	opacity: 0;
 	color: white;
 }
-.plata{
-	width: 320px;
-	height: 320px;
-}
+
 #rbTS:checked ~	 #TsContainer{
 	width: 100%;
 	max-height: 2000em;
 	border: 0.8em solid #777;
 	border-left: none;
+	padding: 0.1em;
 }
 .Texti_vid_plotu{
 	width: 320px;
