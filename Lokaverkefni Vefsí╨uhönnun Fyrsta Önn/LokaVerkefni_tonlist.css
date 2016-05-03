@@ -44,6 +44,40 @@ iframe{
 	border: none;
 	transition: height 1s ease-in-out;
 }
+
+
+h1{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+h2{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+h3{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+h4{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+p{
+	line-height: 30px;
+	padding: 7px;
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+img{
+	float: left;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: rgb(39,158,255);
+}
+
 .shadow {
     position: absolute;
     box-shadow: inset 0 0 0 170px rgba(255,255,255,0.2);
@@ -82,7 +116,6 @@ input{
 	margin: 0em;
 	width: 0px;
 	max-height: 0px;
-  transition: all 1s ease;
 }
 
 .Plata{
@@ -90,52 +123,109 @@ input{
 	height: auto;
 	float: left;
 }
-.main{
-	width: 640px;
-	height: 640px;
-	float: left;
-}
+
 
 @media screen and (min-width: 0em){
-.frontpage,
-.Mynd{
-	width: 100%;
-	height: auto;
-}
+
 .Mynd h1{
 	opacity: 1;
 }
-  }
-
- #rbTS:checked ~	 #TsContainer{
-	width: 100%;
-	max-height: 2000em;
-	padding-right: 2em;
-}
+.frontpage,
+.main,
 .Plata,
 .Opener{
 	width: 100%;
 	height: auto;
+	border: 0.2em solid grey;
 	}
+	.main{
+	width: 90%;
+	max-height: 200em;
+	float: left;
+}
 
+ #rbTS:checked ~	 #TsContainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 5s 1;
+  animation-direction: alternate;
+}
+#Coldplay:checked ~ #CPcontainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 5s 1;
+  animation-direction: alternate;
+}
+
+@keyframes popp {
+
+  0% {
+    width: 0%;
+    max-height:0em;
+  }
+  5%{
+  	max-height: 0em;
+  	width: 100%;
+  }
+  100% {
+    max-height: 150em;
+  }
+
+}
+}
 	
-  @media screen and (min-width: 60em){
+  @media screen and (min-width: 1920px){
 .Mynd h1{
 	opacity: 0;
 	color: white;
 }
-
+.main{
+	width: 25%;
+	max-height: 740px;
+	float: left;
+}
+.Plata{
+	width: 25%;
+	max-height: 700px;
+	float: left;
+	height: 320px;
+}
 #rbTS:checked ~	 #TsContainer{
 	width: 100%;
 	max-height: 2000em;
 	border: 0.8em solid #777;
-	border-left: none;
 	padding: 0.1em;
+  animation:  dropp 1s 1;
+  animation-direction: alternate;
 }
-.Texti_vid_plotu{
-	width: 320px;
-	height: 320px;
-	float: left;
+
+#Coldplay:checked ~ #CPcontainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 1s 1;
+  animation-direction: alternate;
+}
+@keyframes dropp {
+
+  0% {
+    width: 0%;
+    max-height:0em;
+    margin-right: 100em;
+  }
+  35%{
+  	max-height: 0em;
+  	width: 100%;
+  }
+  100% {
+    max-height: 150em;
+  }
+
 }
 
 
