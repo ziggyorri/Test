@@ -3,8 +3,6 @@
 body{
 	background-color: rgb(64, 64, 64);
 	max-width: 2050px;
-
-
 }
 
 .Mynd{
@@ -63,6 +61,7 @@ img{
 }
 
 
+
 input{
 	display: none;
 	height: 0px;
@@ -95,9 +94,11 @@ input{
 	height: 320px;
 }
 
+
 @media screen and (min-width: 48em){
 .Mynd h1{
 	opacity: 1;
+
 	color: red;
 }
   }
@@ -120,7 +121,6 @@ input{
 	clear: left;
 }
   @media screen and (min-width: 60em){
-}
 .Mynd h1{
 	opacity: 0;
 	color: white;
@@ -141,4 +141,5 @@ input{
 	float: left;
 }
 
-  }
+
+}
