@@ -2,12 +2,12 @@
 
 body{
 	background-color: rgb(64, 64, 64);
-	max-width: 2050px;
+	max-width: 1920px;
+	margin: 0 auto;
 }
 
 .Mynd{
-	width: 320px;
-	height: 320px;
+	height: auto;
 	float: left;
 	transition: box-shadow 0.5s;
 	cursor: pointer;
@@ -15,12 +15,11 @@ body{
 	padding: none;
 	display: inline-block;
 	background-size: cover;
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 320px;
 }
-.Mynd:hover{
+/*.Mynd:hover{
 	box-shadow: inset 0 0 0 170px rgba(255,255,255,0.2);
-}
+}*/
 .Mynd h1{
 	font-family: "Roboto", sans-serif;
 	color: white;
@@ -45,6 +44,40 @@ iframe{
 	border: none;
 	transition: height 1s ease-in-out;
 }
+
+
+h1{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+h2{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+h3{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+h4{
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+p{
+	line-height: 30px;
+	padding: 7px;
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+img{
+	float: left;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: rgb(39,158,255);
+}
+
 .shadow {
     position: absolute;
     box-shadow: inset 0 0 0 170px rgba(255,255,255,0.2);
@@ -52,11 +85,11 @@ iframe{
     left: 0;
     opacity: 0;
 }
-.shadow:hover{
+/*.shadow:hover{
 	opacity: 1;
-}
+}*/
 
-img{
+.frontpage{
 	margin-top: -2.4em;
 }
 
@@ -73,72 +106,147 @@ input{
 }
 .container{
 	position: relative;
+	max-width: 1920px;
 	clear: both;
 	float: left;
-	padding: 0.6em;
+	padding: 0em;
     overflow: hidden;
 	display: block;
-	border: none;
-	border-width: 0em;
 	clear: none;
-	position: relative;
-	padding: 0em;
 	margin: 0em;
 	width: 0px;
 	max-height: 0px;
-  transition: all .5s ease;
 }
 
-.plata{
-	width: 20px;
-	height: 320px;
+.Plata{
+	max-width: 320px;
+	height: auto;
+	float: left;
 }
 
 
-@media screen and (min-width: 48em){
+@media screen and (min-width: 0em){
+
 .Mynd h1{
 	opacity: 1;
-
-	color: red;
 }
-  }
+.frontpage,
+.main,
+.Plata,
+.Opener{
+	width: 100%;
+	height: auto;
+	border: 0.2em solid grey;
+	}
+	.main{
+	width: 100%;
+	max-height: 200em;
+	float: left;
+}
 
  #rbTS:checked ~	 #TsContainer{
 	width: 100%;
 	max-height: 2000em;
-	border: none;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 5s 1;
+  animation-direction: alternate;
 }
- .Plata,
+#Coldplay:checked ~ #CPcontainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 5s 1;
+  animation-direction: alternate;
+}
+
+#rbRobbie:checked ~ #RBcontainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 5s 1;
+  animation-direction: alternate;
+
+@keyframes popp {
+
+  0% {
+    width: 0%;
+    max-height:0em;
+  }
+  5%{
+  	max-height: 0em;
+  	width: 100%;
+  }
+  100% {
+    max-height: 150em;
+  }
+
+}
+}
+	
+  @media screen and (min-width: 120em){
 .Opener{
+	width: 25%;
 	height: auto;
-	width: 100%;
-	border: none;
-	border-width: 0px;
-	}
-	.Texti_vid_plotu{
-	width: 100%;
-	float: left;
-	clear: left;
 }
-  @media screen and (min-width: 60em){
 .Mynd h1{
 	opacity: 0;
 	color: white;
 }
-.plata{
-	width: 320px;
+.main{
+	width: 25%;
+	max-height: 740px;
+	float: left;
+}
+.Plata{
+	width: 25%;
+	max-height: 700px;
+	float: left;
 	height: 320px;
 }
 #rbTS:checked ~	 #TsContainer{
 	width: 100%;
 	max-height: 2000em;
 	border: 0.8em solid #777;
-	border-left: none;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
 }
-.Texti_vid_plotu{
-	width: 320px;
-	height: 320px;
-	float: left;
+
+#Coldplay:checked ~ #CPcontainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+
+#rbRobbie:checked ~ #RBcontainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+@keyframes dropp {
+
+  0% {
+    width: 0%;
+    max-height:0em;
+    margin-right: 100em;
+  }
+  35%{
+  	max-height: 0em;
+  	width: 100%;
+  }
+  100% {
+    max-height: 150em;
+  }
+
 }
 
 
