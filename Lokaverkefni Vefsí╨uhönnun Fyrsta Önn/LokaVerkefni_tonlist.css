@@ -139,7 +139,7 @@ input{
 	border: 0.2em solid grey;
 	}
 	.main{
-	width: 90%;
+	width: 100%;
 	max-height: 200em;
 	float: left;
 }
@@ -161,6 +161,14 @@ input{
   animation-direction: alternate;
 }
 
+#rbRobbie:checked ~ #RBcontainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 5s 1;
+  animation-direction: alternate;
+
 @keyframes popp {
 
   0% {
@@ -178,7 +186,11 @@ input{
 }
 }
 	
-  @media screen and (min-width: 1920px){
+  @media screen and (min-width: 120em){
+.Opener{
+	width: 25%;
+	height: auto;
+}
 .Mynd h1{
 	opacity: 0;
 	color: white;
@@ -199,7 +211,7 @@ input{
 	max-height: 2000em;
 	border: 0.8em solid #777;
 	padding: 0.1em;
-  animation:  dropp 1s 1;
+  animation:  dropp 4s 1;
   animation-direction: alternate;
 }
 
@@ -208,7 +220,16 @@ input{
 	max-height: 2000em;
 	border: 0.8em solid #777;
 	padding: 0.1em;
-  animation:  dropp 1s 1;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+
+#rbRobbie:checked ~ #RBcontainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
   animation-direction: alternate;
 }
 @keyframes dropp {
