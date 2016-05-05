@@ -2,10 +2,12 @@
 
 body{
 	background-color: rgb(64, 64, 64);
-	max-width: 1920px;
+	max-width: 120em;
 	margin: 0 auto;
 }
-
+.inner-right{
+	margin: 0em;
+}
 .Mynd{
 	height: auto;
 	float: left;
@@ -15,7 +17,6 @@ body{
 	padding: none;
 	display: inline-block;
 	background-size: cover;
-	max-width: 320px;
 }
 /*.Mynd:hover{
 	box-shadow: inset 0 0 0 170px rgba(255,255,255,0.2);
@@ -119,7 +120,6 @@ input{
 }
 
 .Plata{
-	max-width: 320px;
 	height: auto;
 	float: left;
 }
@@ -143,68 +143,71 @@ input{
 	max-height: 200em;
 	float: left;
 }
+body p{
+	font-size: 1.5em;
+	padding-right:1em;
+}
 
  #rbTS:checked ~	 #TsContainer{
 	width: 100%;
-	max-height: 2000em;
+	max-height: none;
 	border: 0.8em solid #777;
 	padding-right: 2em;
-  animation:  popp 5s 1;
+  animation:  popp 2s 1;
   animation-direction: alternate;
 }
 #Coldplay:checked ~ #CPcontainer{
 	width: 100%;
-	max-height: 2000em;
+	max-height: none;
 	border: 0.8em solid #777;
 	padding-right: 2em;
-  animation:  popp 5s 1;
+  animation:  popp 2s 1;
   animation-direction: alternate;
 }
 
 #rbRobbie:checked ~ #RBcontainer{
 	width: 100%;
-	max-height: 2000em;
+	max-height: none;
 	border: 0.8em solid #777;
 	padding-right: 2em;
-  animation:  popp 5s 1;
+  animation:  popp 2s 1;
   animation-direction: alternate;
 
-@keyframes popp {
-
-  0% {
-    width: 0%;
-    max-height:0em;
-  }
-  5%{
-  	max-height: 0em;
-  	width: 100%;
-  }
-  100% {
-    max-height: 150em;
-  }
 
 }
-}
-	
-  @media screen and (min-width: 120em){
-.Opener{
-	width: 25%;
+@media screen and (min-width: 30em){/*480px*/
+
+  }
+  @media screen and (min-width: 48em){/*768px*/
+
+  }
+   @media screen and (min-width: 60em){/*960px*/
+   	
+   	body p{
+   		font-size: 1.8em;
+   	}
+   	.Opener{
+	width: 50%;
 	height: auto;
+}
+.right{
+	clear: left;
+	width: 100%;
+}
+.inner-right{
+	clear: left;
+	float: left;
 }
 .Mynd h1{
 	opacity: 0;
 	color: white;
 }
 .main{
-	width: 25%;
-	max-height: 740px;
 	float: left;
 }
 .Plata{
-	width: 25%;
-	max-height: 700px;
+	width: 48%;
 	float: left;
-	height: 320px;
 }
 #rbTS:checked ~	 #TsContainer{
 	width: 100%;
@@ -232,7 +235,66 @@ input{
   animation:  dropp 4s 1;
   animation-direction: alternate;
 }
-@keyframes dropp {
+
+  }
+  @media screen and (min-width: 89.6875em){/*1435px*/
+  	.Opener{
+	width: 30%;
+	height: auto;
+}
+.right{
+	clear: none;
+}
+.inner-right{
+	clear: none;
+	float: none;
+}
+.Mynd h1{
+	opacity: 0;
+	color: white;
+}
+.main{
+	float: left;
+	min-height: 565px;
+}
+.Plata{
+	width: 24.4%;/*24.4*/
+	min-width: 0em;
+	max-width: 1000em;
+	float: left;
+}
+#rbTS:checked ~	 #TsContainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+
+#Coldplay:checked ~ #CPcontainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+
+#rbRobbie:checked ~ #RBcontainer{
+	width: 100%;
+	max-height: 2000em;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+
+  }	
+
+
+  /*Animations*/
+ @keyframes dropp {
 
   0% {
     width: 0%;
@@ -249,5 +311,16 @@ input{
 
 }
 
+@keyframes popp {
+
+  0% {
+    width: 0%;
+    max-height: none;
+  }
+  100%{
+    max-height: none;
+  	width: 100%;
+  }
+  
 
 }
