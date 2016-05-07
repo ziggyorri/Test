@@ -92,6 +92,9 @@ a:hover{
 
 .frontpage{
 	margin-top: -2.4em;
+	max-width: none;
+	max-height: none;
+	width: 20%
 }
 
 
