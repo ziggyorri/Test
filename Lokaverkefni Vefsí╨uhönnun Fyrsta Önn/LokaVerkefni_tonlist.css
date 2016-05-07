@@ -129,7 +129,9 @@ input{
 
 
 @media screen and (min-width: 0em){
-
+.main div{
+	float: left;
+}
 .Mynd h1{
 	opacity: 1;
 }
@@ -192,6 +194,7 @@ body p{
    	.Opener{
 	width: 50%;
 	height: auto;
+	margin-right: 1em;
 }
 .right{
 	clear: left;
@@ -207,6 +210,10 @@ body p{
 }
 .main{
 	float: left;
+}
+.main div{
+	float: none;
+	padding:1em;
 }
 .Plata{
 	width: 48%;
