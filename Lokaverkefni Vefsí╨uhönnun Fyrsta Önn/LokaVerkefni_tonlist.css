@@ -177,8 +177,23 @@ body p{
 	padding-right: 2em;
   animation:  popp 2s 1;
   animation-direction: alternate;
-
-
+}
+#rbOneRepublic:checked ~ #ORcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 2s 1;
+  animation-direction: alternate;
+}
+#BobMarley:checked ~ #BMcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 2s 1;
+  animation-direction: alternate;
+}
 }
 @media screen and (min-width: 30em){/*480px*/
 
@@ -221,7 +236,7 @@ body p{
 }
 #rbTS:checked ~	 #TsContainer{
 	width: 100%;
-	max-height: 2000em;
+	max-height: none;
 	border: 0.8em solid #777;
 	padding: 0.1em;
   animation:  dropp 4s 1;
@@ -230,7 +245,7 @@ body p{
 
 #Coldplay:checked ~ #CPcontainer{
 	width: 100%;
-	max-height: 2000em;
+	max-height: none;
 	border: 0.8em solid #777;
 	padding: 0.1em;
   animation:  dropp 4s 1;
@@ -239,13 +254,28 @@ body p{
 
 #rbRobbie:checked ~ #RBcontainer{
 	width: 100%;
-	max-height: 2000em;
+	max-height: none;
 	border: 0.8em solid #777;
 	padding: 0.1em;
   animation:  dropp 4s 1;
   animation-direction: alternate;
 }
-
+#rbOneRepublic:checked ~ #ORcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+#BobMarley:checked ~ #BMcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
   }
   @media screen and (min-width: 89.6875em){/*1435px*/
   	.Opener{
