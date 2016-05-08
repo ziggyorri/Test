@@ -194,6 +194,38 @@ body p{
   animation:  popp 2s 1;
   animation-direction: alternate;
 }
+#rbMaroon:checked ~ #MRcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 2s 1;
+  animation-direction: alternate;
+}
+#rbEd:checked~#EDcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 2s 1;
+  animation-direction: alternate;
+}
+#rbSting:checked ~ #Stingcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 2s 1;
+  animation-direction: alternate;
+}
+#rbJay:checked ~ #JZcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding-right: 2em;
+  animation:  popp 2s 1;
+  animation-direction: alternate;
+}
 }
 @media screen and (min-width: 30em){/*480px*/
 
@@ -269,6 +301,38 @@ body p{
   animation-direction: alternate;
 }
 #BobMarley:checked ~ #BMcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+#rbMaroon:checked ~ #MRcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+#rbEd:checked~#EDcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+#rbSting:checked ~ #Stingcontainer{
+	width: 100%;
+	max-height: none;
+	border: 0.8em solid #777;
+	padding: 0.1em;
+  animation:  dropp 4s 1;
+  animation-direction: alternate;
+}
+#rbJay:checked ~ #JZcontainer{
 	width: 100%;
 	max-height: none;
 	border: 0.8em solid #777;
